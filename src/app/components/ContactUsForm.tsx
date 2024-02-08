@@ -31,7 +31,7 @@ export function ContactUsForm() {
 
   return (
     <>
-      <div className=" my-4 flex min-h-96 w-2/3 flex-col rounded-lg border shadow-lg lg:flex-row">
+      <div className=" m-2 my-4 flex min-h-96 flex-col rounded-lg border shadow-lg lg:w-2/3 lg:flex-row">
         <div className="relative flex w-full  flex-col rounded-t-lg bg-gradient-to-tr from-blue-700 to-indigo-900 px-4 py-2 text-white lg:w-1/3 lg:rounded-l-lg">
           <h4 className="w-full text-center font-exo text-xl">Get In Touch!</h4>
           <div className="absolute -bottom-9 left-1/2 size-0 -translate-x-1/2  rotate-180 border-[20px] border-solid border-transparent border-b-indigo-800 lg:left-full lg:top-1/2 lg:-translate-x-1 lg:-translate-y-1/2 lg:rotate-90"></div>
@@ -44,7 +44,7 @@ export function ContactUsForm() {
             />
             <ContactUsAction
               type="Message"
-              href="https://wa.me/07845293283"
+              href="https://wa.me/+447845293283"
               body="Whatsapp Message"
             />
             <ContactUsAction
