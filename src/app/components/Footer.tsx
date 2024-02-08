@@ -5,7 +5,6 @@ export function Footer() {
         <span className="w-full">Condor Web Works ltd</span>
         <span className="w-full">Leicester, UK</span>
       </div>
-      <div>V.0.0.1</div>
     </footer>
   );
 }

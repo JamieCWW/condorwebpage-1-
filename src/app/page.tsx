@@ -9,13 +9,13 @@ export default function Home() {
   return (
     <main className="">
       <SectionBody additionalClasses="relative bg-wave-svg bg-cover -mt-20">
-        <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-40 text-center text-7xl text-white">
+        <div className="absolute left-1/2 top-1/2 flex w-full -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-40 text-center text-3xl text-white lg:text-7xl">
           <h1 className="w-full font-exo">Transform your online presence</h1>
           <ContactUsButton />
         </div>
       </SectionBody>
       <SectionBody additionalClasses="flex flex-col justify-center items-center h-fit gap-20 py-10">
-        <h3 className="font-exo text-6xl font-bold text-blue-900">
+        <h3 className="font-exo text-2xl font-bold text-blue-900 lg:text-6xl">
           What we do!
         </h3>
         <div className="flex size-full flex-col items-center justify-evenly gap-2 lg:flex-row">
